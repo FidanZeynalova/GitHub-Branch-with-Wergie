@@ -36,11 +36,14 @@ header {
                     align-items: center;
                     font-size: 17px;
                     gap: 10px;
+                    color: gray;
                     cursor: pointer;
 
-                    li:first-child {
-                        color: black;
-                        opacity: 1;
+                    li:first-of-type {
+                      color: black
+                    }
+                    select{
+                        color: gray;
                     }
                 }
             }
