@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    list-style: none;
+}
+
+header {
+    background-color: #f8f9fa;
+
+    .container {
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px auto;
+        padding: 10px;
+
+        .logo-head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            h2 {
+                font-size: 22px;
+            }
+
+            .lists {
+                ul {
+                    display: flex;
+                    align-items: center;
+                    font-size: 17px;
+                    gap: 10px;
+                    cursor: pointer;
+
+                    li:first-child {
+                        color: black;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .basket {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                padding: 10px 25px;
+                border: 1px solid black;
+                border-radius: 10px;
+                color: #212529;
+                transition: all .4s ease;
+
+                .fa-cart-shopping {
+                    font-size: 17px;
+                }
+
+                #number {
+                    background-color: #212529;
+                    color: white;
+                    border-radius: 50%;
+                    font-size: 17px;
+                    padding: 5px;
+                }
+
+                #card {
+                    font-size: 15px;
+                }
+
+                &:hover {
+                    background-color: #212529;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+#header {
+    background-color: #212529;
+
+    .container {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0px auto;
+        text-align: center;
+        padding: 100px 0;
+
+        h1 {
+            color: white;
+            font-size: 50px;
+        }
+
+        span {
+            font-size: 22px;
+            color: white;
+            opacity: .7;
+        }
+    }
+}
+
+#footer {
+    background-color: red;
+
+    span {
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 20px 0;
+        opacity: .7;
+        gap: 10px;
+        margin: 0px auto;
+        text-align: center;
+    }
+}
